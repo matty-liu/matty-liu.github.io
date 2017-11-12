@@ -63,7 +63,6 @@
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row-landing">
-
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
               <strong>Hello World!</strong>
@@ -72,7 +71,7 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">
-              My name is Matthew Liu, I am a software developer, and welcome to my page!
+              My name is <span class="bold">Matthew Liu</span>, I am a <span class="bold">software developer</span>, and <span class="bold">welcome</span> to my page!
             </p>
             <p class="text-faded mb-5"></p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
@@ -130,10 +129,10 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">About Me</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Currently, I am a software developer with a background in science and education. I have experience using Ruby on Rails, JavaScript, and React/Redux. I am passionate about learning and enjoy problem solving with others the challeneges and problems we face!
+            <p class="text-faded mb-4">Currently, I am a software developer with a background in science and education. I have experience using Ruby on Rails, JavaScript, and React/Redux. I am passionate about learning and enjoy the challenege of problem solving with others!
             <br>
             <br>
-            When I'm not building cool apps, you can find me outside enjoying nature, playing sports improving my basketball and tennis prowress, cooking crazy dishes using my chemistry degree, watching an online lecture on edX (scholar for life), and teaching the subjects I love (yeah science and math)!
+            When I'm not building cool apps, you can find me outside enjoying nature, improving my basketball and tennis prowress, cooking delicious food using my chemistry degree, watching an online lecture on edX (scholar for life), and teaching the subjects I love (yeah science and math)!
             <br>
             <br>
             </p>
@@ -155,9 +154,9 @@
 
       <section class="p-0">
         <div class="container-fluid p-0">
-          <div class="row no-gutters popup-gallery">
+          <div class="row no-gutters "> <!-- move this back in to enable model (popup-gallery) -->
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <a class="portfolio-box" href="http://pet1ov3.herokuapp.com/#/home">
                 <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
@@ -170,9 +169,18 @@
                   </div>
                 </div>
               </a>
+              <div class="portfolio-subject">
+                <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+                <h3 class="mb-3">petLove</h3>
+                <p class="text-muted mb-0">Setup playdates for your pets!</p> <br>
+                <div>
+                  <a class="btn btn-primary btn-xl js-scroll-trigger" href="http://pet1ov3.herokuapp.com/#/home">Live Link</a>
+                  <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://github.com/matty-liu/petlove">Github Repo</a>
+                </div>
+              </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <a class="portfolio-box" href="http://mattyliu.com/popularTimesMapManhattan/">
                 <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
@@ -185,9 +193,18 @@
                   </div>
                 </div>
               </a>
+              <div class="portfolio-subject">
+                <i class="fa fa-4x fa-map text-primary mb-3 sr-icons"></i>
+                <h3 class="mb-3">Populartimes</h3>
+                <p class="text-muted mb-0">When exactly are restaurants busy?</p> <br>
+                <div>
+                  <a class="btn btn-primary btn-xl js-scroll-trigger" href="http://mattyliu.com/popularTimesMapManhattan/">Live Link</a>
+                  <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://github.com/matty-liu/popularTimesMapManhattan">Github Repo</a>
+                </div>
+              </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <a class="portfolio-box" href="https://github.com/matty-liu/DOMination">
                 <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
@@ -200,17 +217,26 @@
                   </div>
                 </div>
               </a>
+              <div class="portfolio-subject">
+                <i class="fa fa-4x fa-code text-primary mb-3 sr-icons"></i>
+                <h3 class="mb-3">DOMination</h3>
+                <p class="text-muted mb-0">Manipulate the DOM at your will!</p> <br>
+                <div>
+                  <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="http://mattyliu.com/popularTimesMapManhattan/">Live Link</a> -->
+                  <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://github.com/matty-liu/DOMination">Github Repo</a>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <!-- <div class="col-lg-4 col-sm-6">
               <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
                 <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
-                      Category
+                      Cooking
                     </div>
                     <div class="project-name">
-                      Project Name
+                      Chemistry of Cooking
                     </div>
                   </div>
                 </div>
@@ -222,10 +248,10 @@
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
-                      Category
+                      Private Tutor
                     </div>
                     <div class="project-name">
-                      Project Name
+                      Math, Science, Test Prep
                     </div>
                   </div>
                 </div>
@@ -237,15 +263,15 @@
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
-                      Category
+                      YouTube Tutorial
                     </div>
                     <div class="project-name">
-                      Project Name
+                      JavaScript
                     </div>
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -257,15 +283,15 @@
         <hr class="light my-4">
       </div>
       <div class="skills">
-        <i class="devicon-ruby-plain-wordmark colored"></i>
-        <i class="devicon-rails-plain-wordmark colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-react-original-wordmark colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-        <i class="devicon-sass-original colored"></i>
-        <i class="devicon-github-plain-wordmark colored"></i>
-        <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+        <i class="devicon-ruby-plain-wordmark colored sr-skillsicons"></i>
+        <i class="devicon-rails-plain-wordmark colored sr-skillsicons"></i>
+        <i class="devicon-javascript-plain colored sr-skillsicons"></i>
+        <i class="devicon-react-original-wordmark colored sr-skillsicons"></i>
+        <i class="devicon-html5-plain-wordmark colored sr-skillsicons"></i>
+        <i class="devicon-css3-plain-wordmark colored sr-skillsicons"></i>
+        <i class="devicon-sass-original colored sr-skillsicons"></i>
+        <i class="devicon-github-plain-wordmark sr-skillsicons"></i>
+        <i class="devicon-amazonwebservices-plain-wordmark colored sr-skillsicons"></i>
       </div>
     </section>
 
@@ -308,25 +334,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <div>
-      <a href="mailto:mattkliu@gmail.com">
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        /mattkliu@gmail.com
-      <a>
-    </div>
-    <div>
-      <a href="https://github.com/matty-liu">
-      <i class="fa fa-github" aria-hidden="true"></i>
-      /matty-liu
-      <a>
-    </div>
-    <div>
-      <a href="www.linkedin.com/in/matthew-liuu">
-      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-      /matthew-liuu
-      <a>
-    </div> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
