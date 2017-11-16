@@ -85,6 +85,19 @@
   color: black;
 }
 
+.btn-portfolio-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-portfolio-container a {
+  margin: 3px;
+}
+
+.text-muted.mb-0 {
+  text-align: center;
+}
+
 .portfolio-subject {
   margin: 30px 0;
   display: flex;
