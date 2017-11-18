@@ -90,7 +90,12 @@
   color: black;
 }
 
-
+.btn-portfolio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .btn-portfolio-container a {
   margin: 3px;
