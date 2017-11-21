@@ -101,8 +101,13 @@
   margin: 3px;
 }
 
+.img-fluid {
+  border: 10px solid white;
+}
+
 .text-muted.mb-0 {
   text-align: center;
+  width: 95%;
 }
 
 .portfolio-subject {
