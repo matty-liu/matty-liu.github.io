@@ -125,10 +125,10 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">About Me</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Currently, I am a software engineer working in the energy sector focused on low code / no code product development. I have a background in science and education with a passion for learning, design, and problem solving.
+            <p class="text-faded mb-4">I am a software engineer working in the energy sector focused on low code / no code product development. I have a background in science and education with a passion for people, learning, design, and problem solving.
             <br>
             <br>
-            When I am not building web apps, you can find me enjoying nature, improving my basketball and tennis prowess, cooking with a scientific eye, watching an online lecture (scholar for life), and teaching the subjects I love (yeah science and math)!
+            Hobbies include enjoying the outdoors, playing sports (basketball - Go Cs! and tennis - my man Federer is now retired), cooking with a scientific eye, and teaching the subjects I love (chemistry, physics, biology, computer science and math).
             <br>
             <br>
             </p>
@@ -369,20 +369,14 @@
       <div class="container accomplishments d-flex justify-content-center">
         <div class="d-flex align-items-start">
           <div class="nav accomplishments-tabs flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <button class="nav-link active" id="v-pills-ada-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ada" type="button" role="tab" aria-controls="v-pills-ada" aria-selected="true">
-              ADA Compliance (a11y)
-            </button>
             <!-- <button class="nav-link" id="v-pills-l10n-i18n-tab" data-bs-toggle="pill" data-bs-target="#v-pills-l10n-i18n" type="button" role="tab" aria-controls="v-pills-l10n-i18n" aria-selected="false">
               Internationalization (i18n) & <br>Localization (l10n)
             </button> -->
-            <button class="nav-link" id="v-pills-theme-tab" data-bs-toggle="pill" data-bs-target="#v-pills-theme" type="button" role="tab" aria-controls="v-pills-theme" aria-selected="false">
-              White-labeled Product
+            <button class="nav-link active" id="v-pills-theme-tab" data-bs-toggle="pill" data-bs-target="#v-pills-theme" type="button" role="tab" aria-controls="v-pills-theme" aria-selected="false">
+              Successful ILCM Product Design and Launch
             </button>
-            <button class="nav-link" id="v-pills-responsive-tab" data-bs-toggle="pill" data-bs-target="#v-pills-responsive" type="button" role="tab" aria-controls="v-pills-responsive" aria-selected="false">
-              Responsive Design
-            </button>
-            <button class="nav-link" id="v-pills-paypal-tab" data-bs-toggle="pill" data-bs-target="#v-pills-paypal" type="button" role="tab" aria-controls="v-pills-paypal" aria-selected="false">
-              Paypal Integration
+            <button class="nav-link" id="v-pills-ada-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ada" type="button" role="tab" aria-controls="v-pills-ada" aria-selected="true">
+              Modernize Legacy System's UI
             </button>
             <button class="nav-link" id="v-pills-cloud-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cloud" type="button" role="tab" aria-controls="v-pills-cloud" aria-selected="false">
               Infrastructure Migration to Docker / AWS
@@ -392,11 +386,17 @@
             </button>
           </div>
           <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-ada" role="tabpanel" aria-labelledby="v-pills-ada-tab">
+            <div class="tab-pane fade" id="v-pills-ada" role="tabpanel" aria-labelledby="v-pills-ada-tab">
+              ADA Compliance (a11y)
+              <br><br>
               Migrated a web application's public facing pages to Level A ADA compliance.
               Effort ranged from updating code to generate semantically correct markup, screen reader support (i.e. ARIA labels, img alt, element role, etc...)
               adjusting page style to meet visual requirements for users with poor vision (sufficient color contrast, text sizing, etc...).
               To complement this effort, provided documentation, automated testing, and integration with an ADA testing vendor to catch any regression.
+              <br><br>
+              Responsive Design
+              <br><br>
+              Updated a web application frontend pages to work on devices of varying screen sizes.
             </div>
             <!-- <div class="tab-pane fade" id="v-pills-l10n-i18n" role="tabpanel" aria-labelledby="v-pills-l10n-i18n-tab">
               Devised a plan for updating a web application for l10n and i18n support.
@@ -405,11 +405,12 @@
               User inputted data required database updates for internationalized supported character sets (UTF-8 v. latin).
               Right to left (RTL) and left to right (LTR) styling updates.
             </div> -->
-            <div class="tab-pane fade" id="v-pills-theme" role="tabpanel" aria-labelledby="v-pills-theme-tab">
-              Created a themeable white labeled product, so product could be quickly rebranded to match a client's branding requirements.
-            </div>
-            <div class="tab-pane fade" id="v-pills-responsive" role="tabpanel" aria-labelledby="v-pills-responsive-tab">
-              Updated a web application frontend pages to work on devices of varying screen sizes.
+            <div class="tab-pane fade show active" id="v-pills-theme" role="tabpanel" aria-labelledby="v-pills-theme-tab">
+              Created the ILCM (Interconnection Life Cycle Management) product with a feature suite to address the interconnection lifecycle demands by the general public and utilities.
+              <br><br>
+              Product provided an easier and cheaper way for utilities to manage the large influx of interconnection applications as well as adapt to the rapidly changing regulatory requirements public utilities' face. Product was built to be ADA compliant (accessibility - a11y), localization (l10n) and internationalization (i18n) ready, easily rebrandable, and improved end user experience (responsive web pages, modern interface, improved ux flows).
+              <br><br>
+              ILCM sped up the interconnection process from 3 months to 2 weeks and improved utility operational efficiency. Product was expanded to support popular vendors (PayPal, DocuSign) and provided additional analytics and reporting capabilities and continues to be developed and expanded (2022).
             </div>
             <div class="tab-pane fade" id="v-pills-paypal" role="tabpanel" aria-labelledby="v-pills-paypal-tab">
               Integrated product with paypal to support payments for one of our clients product
@@ -423,7 +424,8 @@
               Transformed "legacy" frontend code base (.jsp/tiles.xml/Knockout/jQuery) to utilize modern frontend tooling
               (Webpack, babel, Vue.js, Yarn). Used minified/split bundles for faster page load times,
               improved frontend developer experience by introducing the use of a frontend dev server with hot module replacement,
-              added unit testing framework with Jest, parameterized stylesheets for easily themeable interfaces (SCSS).
+              added unit testing framework with Jest, provided a component library with documentation of how to utilize the core styles.
+              Work vastly improved the frontend developer experience and made the frontend code more approachable for non frontend developers.
             </div>
           </div>
         </div>
