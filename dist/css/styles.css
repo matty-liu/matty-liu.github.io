@@ -11276,6 +11276,45 @@ hr.divider-light {
   }
 }
 
+#about .about-profile-picture-image {
+  border-radius: 50%;
+  margin: 0;
+  border: none;
+  height: 240px;
+  width: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 576px) {
+  #accomplishments .accomplishments-panel {
+    max-width: 960px;
+    width: 95%;
+  }
+}
+@media (min-width: 768px) {
+  #accomplishments .accomplishments-panel {
+    max-width: 960px;
+    width: 95%;
+  }
+  #accomplishments .accomplishments-tabs {
+    min-width: 185px;
+  }
+  #accomplishments .accomplishments-tabs button {
+    white-space: normal;
+  }
+}
+#accomplishments .accomplishments-tabs .nav-link {
+  color: black;
+}
+#accomplishments .accomplishments-tabs .nav-link.active {
+  background-color: #f05f40;
+}
+
+#contact a, #contact i, #contact p {
+  color: #212529;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -11342,4 +11381,24 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+#skills .icon-container {
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#skills .icon-container img {
+  display: flex;
+}
+#skills .icon-container i {
+  font-size: 92px;
+}
+#skills .icon-container i.devicon-github-plain-wordmark {
+  font-size: 88px;
+}
+#skills .icon-container i.devicon-sass-original {
+  font-size: 95px;
 }

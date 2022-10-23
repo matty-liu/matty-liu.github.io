@@ -1,0 +1,30 @@
+// 
+// Accomplishments
+// 
+
+#accomplishments {
+  @media (min-width: 576px) {
+    .accomplishments-panel {
+      max-width: 960px;
+      width: 95%;
+    }
+  }
+  @media (min-width: 768px) {
+    .accomplishments-panel {
+      max-width: 960px;
+      width: 95%;
+    }
+    .accomplishments-tabs {
+      min-width: 185px;
+    }
+    .accomplishments-tabs button {
+      white-space: normal;
+    }
+  }
+  .accomplishments-tabs .nav-link {
+    color: black;
+  }
+  .accomplishments-tabs .nav-link.active {
+    background-color: #f05f40;
+  }
+}

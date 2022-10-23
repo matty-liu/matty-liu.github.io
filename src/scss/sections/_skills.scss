@@ -1,0 +1,29 @@
+// 
+// Skills
+// 
+
+#skills {
+  .icon-container {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      display: flex;
+    }
+
+    i {
+      font-size: 92px;
+
+      &.devicon-github-plain-wordmark {
+        font-size: 88px;
+      }
+      &.devicon-sass-original {
+        font-size: 95px;
+      }
+    }
+    
+  }
+}
