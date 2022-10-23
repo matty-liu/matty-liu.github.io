@@ -11308,6 +11308,9 @@ hr.divider-light {
   color: black;
 }
 #accomplishments .accomplishments-tabs .nav-link.active {
+  color: white;
+}
+#accomplishments .accomplishments-tabs .nav-link.active {
   background-color: #f05f40;
 }
 
