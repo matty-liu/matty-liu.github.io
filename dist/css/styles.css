@@ -11311,7 +11311,7 @@ hr.divider-light {
   color: white;
 }
 #accomplishments .accomplishments-tabs .nav-link.active {
-  background-color: #f05f40;
+  background-color: #f4623a;
 }
 
 #contact a, #contact i, #contact p {
@@ -11392,6 +11392,7 @@ header.masthead h1, header.masthead .h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 #skills .icon-container img {
   display: flex;
