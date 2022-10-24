@@ -11405,5 +11405,8 @@ header.masthead h1, header.masthead .h1 {
   font-size: 88px;
 }
 #skills .icon-container i.devicon-sass-original {
-  font-size: 95px;
+  font-size: 93px;
+}
+#skills .icon-container i.devicon-unix-original {
+  font-size: 90px;
 }
