@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Matthew Liu</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on Matthew Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blogs/2024-09-17-standing-up-personal-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/2024-09-17-standing-up-personal-blog/</guid>
+      <description>&lt;p&gt;My First Personal Blog Site&lt;/p&gt;&#xA;&lt;p&gt;I want to stand up a personal site where I can document my thoughts. The goal is to have a website where I can write blog posts about what is on my mind. I&amp;rsquo;d like to just write my thoughts into a file, if this was being published on the internet to be viewed in a browser, I would use something like Google Docs or Microsoft Word.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matthew Liu</title>
+    <link>http://localhost:1313/blog/posts/</link>
+    <description>Recent content on Matthew Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blog/posts/2024-09-17-standing-up-personal-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/2024-09-17-standing-up-personal-blog/</guid>
+      <description>&lt;h1 id=&#34;my-first-personal-blog-site&#34;&gt;My First Personal Blog Site&lt;/h1&gt;&#xA;&lt;p&gt;A lot has happened since I started programming professionally. I got married, bought a home, and am now a father. With all these big life changing events, I now have to be a lot more disciplined with my time to learn the things I want to learn. To support this desire, I figured setting up a personal blog would help me stay focused in that pursuit. I love the idea of documenting my my thought process and having those thoughts are out there for others to see. Personally I hope my blog posts are educational as that helps me solidfy the new things I&amp;rsquo;m hoping to learn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
