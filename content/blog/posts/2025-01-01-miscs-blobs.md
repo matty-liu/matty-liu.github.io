@@ -1,6 +1,6 @@
 ---
 title: "Future Posts"
-date: 2025-01-02T14:30:00+04:00
+draft: true
 ---
 
 One of the things I realised working as a web developer is how the tools I use abstract significant aspects of the software and the foundation they are built on to the point where it is magical they are able to accomplish what they do. Don't get my wrong, I'm happy that these things are abstracted away from me. but I do feel as a software developer, I have a responsibility to my craft to have a slightly deeper understanding of the foundation my tools are built on.
