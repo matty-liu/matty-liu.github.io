@@ -14,6 +14,6 @@ I love the idea of documenting my thoughts. Having ideas sit in my head is not t
 
 So, what do I plan to write about in this blog? It will be all things I find interesting. Learning new skills, navigating through adulthood, understanding the world we live in to name a few. More immediately, I think my next post will cover how this blog was stood up (Hugo), how I decided on hosting it (GitHub Pages) and covering basics in web infrastructure. For all the things I plan to write about, I hope it is educational at the very least.
 
-With that, I will close this post out. There is so much more I want to write about, but lets hold off on writing more and get this post published so that I can take my first baby step with the blog up and so that this post can be now available for the world to see!
+With that, I will close this post out. There is so much more I want to write about but lets hold off on writing more and get this post published so that I can take my first baby step with the blog and so that this post can be now available for the world to see!
 
 Cheers!
