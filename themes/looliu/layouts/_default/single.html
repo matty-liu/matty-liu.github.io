@@ -1,9 +1,15 @@
 {{ partial "header.html" . }}
 
-<div class="container">
-  <h1 class="mt-2">{{ .Title }}</h1>
-  <strong class="mt-5">{{ .Date.Format "January 2, 2006" }}</strong>
-  {{ .Content }}
+<div class="page-section container d-flex justify-content-center px-4 px-lg-5">
+  <div class="col-lg-10">
+    <h1 class="mt-2">{{ .Title }}</h1>
+    <div class="mb-2">
+      <strong>{{ .Date.Format "January 2, 2006" }}</strong>
+    </div>
+    <div>
+      {{ .Content }}
+    </div>
+  </div>
 </div>
 
 {{ partial "footer.html" . }}

@@ -19,15 +19,17 @@
 <section class="page-section" id="latest-posts">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
-      <div class="col-lg-8">
-        <h2 class="mb-4">Recent Posts</h2>
+      <div class="col-lg-10">
+        <h1 class="mt-2">Recent Posts</h1>
         {{ range first 10 .Pages }}
         <article class="post-snippet">
-          <h3 class="h4"><a class="text-dark" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <h2 class="h3"><a class="text-dark" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           <div class="mb-2">
-            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-              {{ .Date.Format "January 2, 2006" }}
-            </time>
+            <strong>
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+            </strong>
           </div>
           {{ .Summary }}
           {{ if .Truncated }}

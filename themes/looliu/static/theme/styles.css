@@ -11411,22 +11411,20 @@ header.masthead h1, header.masthead .h1 {
   font-size: 84px;
 }
 
-.home > nav,
-.section.blog > nav {
+#page-top > nav {
   position: fixed;
   width: 100%;
   color: black;
 }
 
 @media (min-width: 992px) {
+  .blog #mainNav {
+    background-color: inherit;
+  }
   .blog #mainNav .navbar-brand {
     color: var(--bs-body-color);
   }
   .blog #mainNav .navbar-nav .nav-item .nav-link {
     color: var(--bs-gray);
   }
-}
-
-.blog .content > div {
-  max-width: 600px;
 }
