@@ -4,7 +4,7 @@ date: 2024-10-15T10:30:00+04:00
 draft: false
 ---
 
-What a year it has been. I got married, I bought a home, and I am now a father. With these big life events came a new set of obligations that has left me with limited time for myself. I still have a strong desire to pursure my personal ambition but with my new set of responsibilities, I can no longer operate as I once did if I wish to continue that pursuit. I have to be more calculated in my approach and even more disciplined with my time if I wish to keep seeking my aspirations. This blog I hope can be a pillar that will support me as I keep pushing fowards.
+What a year it has been. I got married, I bought a home, and I am now a father. With these big life events came a new set of obligations that has left me with limited time for myself. I still have a strong desire to pursure my personal ambition but with my new set of responsibilities, I can no longer operate as I once did if I wish to continue that pursuit. I have to be more calculated in my approach and even more disciplined with my time if I wish to keep seeking my aspirations. This blog I hope can be a pillar that will support me as I keep pushing foward.
 
 <!--more-->
 
