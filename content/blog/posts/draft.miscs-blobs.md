@@ -47,3 +47,49 @@ https://gohugobrasil.netlify.app/variables/page/
 
 
 When I started learning programming in 2017, I followed an intro to computer science course. It introduced a lot of basic computer science concepts and essentially we would write code into a file and executed that file to perform the desired task at hand. Coming from a PC gaming background, it was underwhelming the end output of the code we wrote, a lot of the time it seemed to be just text manipulation. Not to undersell how impressive actually the feat of modern computers are, the code we wrote was really simple.
+
+
+
+
+
+CMS POST STUFF
+
+NOTE: As noted earlier, MAMP comes with a few tools preinstalled (i.e. Apache, MySQL, few additional services). If you are working on a machine which already has these tools installed, it should not conflict with the other installs. One case I did run into a slight issue was with multiple MySQL installs. Long story short, I had two install of MySQL running (my machine's root mysql, MAMP's mysql) both pointing to the default MySQL port of 8080. When MAMP was attemptingI was unaware MAMP came with MySQL but once I realised the WordPress was connecting to the MAMP MySQL database, I created the WordPress user in MAMP's MySQL and things progressed smoothly after that.
+
+
+From my perspective writing this blog, I imagine a CMS to help manage these blog posts and provide a place where these posts can be viewed on the web. [WordPress](https://wordpress.org/). [Blogger](https://blogger.com/) is a great free and quick resource to get a blog started without having to worry much about hosting, the ui. See my test Blogger post [here](https://mattyliu.blogspot.com/2024/10/the-blogger-website-experience.html).
+
+But if you not only want to write a
+
+But CMS have evolved to do more than just manging digital content but oftentimes have an extensive plugin ecosystem.  hard to understand used loosely bounds with what it is used to represent in conversation. CMS software has grown to provide services beyond I would say are content management (as how software platforms typically grow into) so it can be confusing as specific CMS tools/companies are used synonomously with the term. For me I expect content management systems to provide two things:
+
+1. A way for users to manage their digital content (blog posts, website, storefront)
+2. Abstracts the technical expertise, in the context of the web, to utilize their digital content (i.e. hosting, UI)
+
+Just as examples with common CMS providers
+
+1. [WordPress](https://wordpress.org/)
+   1. Provides a bunch of resources for building/hosting a website
+   2. WordPress has many providers that can host WordPress
+2. Shopify
+   1. Provides a bunch of resources for building a store front
+   2. Does not require users to know web basics to host website
+3. Wix/Squarespace
+   1. Provides a bunch of resources for building a website
+   2. Does not require users to know web basics to host website
+
+Before diving into how I will define CMS, here are a list of common CMS platforms that I recognize.
+
+WordPress
+Shopify
+Wix
+Squarespace
+
+So whats the difference between a CMS and setting up my website with HTML/CSS/JS?
+
+So for me personally, CMS is more than just blog sites. I think WordPress has come up 
+
+There are new programming tooling I'd like to explore in software but for this blog one of the most relevant things I have always heard in passing but never took the time to actually look into was the Content Management Systems (CMS). For as many times as I heard that through out my professional carreer, I have never actually experienced CMS tools.
+
+
+is how quickly new paradigms cycle and become the focus of the industry. In 2020, it was the blockchain, crypto, and web3. Now in 2024, crypto, blockchain, web3 haven't shown much viability but large language models are the things we need to watch out for. 
